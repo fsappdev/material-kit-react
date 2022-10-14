@@ -79,9 +79,11 @@ export default function DashboardSidebar({ isOpenSidebar, onCloseSidebar }) {
           </AccountStyle>
         </Link>
       </Box>
-
+      
+      {/* BARRA DE NAVEGACION */} 
       <NavSection navConfig={navConfig} />
 
+      {/* NO SE QUE HACE ESTO 🤷‍♂️🤷‍♂️ */}
       <Box sx={{ flexGrow: 1 }} />
 
       <Box sx={{ px: 2.5, pb: 3, mt: 10 }}>

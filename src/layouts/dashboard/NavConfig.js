@@ -3,11 +3,12 @@ import Iconify from '../../components/Iconify';
 
 // ----------------------------------------------------------------------
 
+//* CONFIGURACION DE LA BARRA LATERAL */
 const getIcon = (name) => <Iconify icon={name} width={22} height={22} />;
 
 const navConfig = [
   {
-    title: 'dashboard',
+    title: 'Panel De Control',
     path: '/dashboard/app',
     icon: getIcon('eva:pie-chart-2-fill'),
   },
